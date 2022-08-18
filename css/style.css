@@ -1,0 +1,44 @@
+.navbar{
+    background-color: #0864B1;
+}
+#hero{
+    background-color: #0864B1;
+}
+#first{
+    background-image: url("img\bg.png");
+}
+#Features{
+    background-color: #F5F5F5;
+}
+#empty_files_label{
+    color: #0864B1;
+}
+h1{
+    /* tight letter spacing */
+    letter-spacing: -0.05em;
+    font-weight: 10000;
+    
+
+}
+#footer_copy{
+    size: 0.00rem;
+    font-weight: bolder;
+    font-size: xx-small;
+}
+#address{
+    size: 0.00rem;
+    font-size: small;
+}
+.btn{
+    color: white;
+    background-color: #0864B1;
+}
+#bi{
+    background-color: #0864B1;
+}
+#features_card{
+    background-color: #F5F5F5;
+}
+#testominals{
+    background-color: #F5F5F5;
+}

@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="navbar navbar-expand-md  navbar-dark text-white" style="background-image: url('img/bg.png');">
+        <div class="container">
+            <a href="#" class="navbar-brand ">Landing Page</a>
+
+            <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#mainmenu"
+            >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-center" id="mainmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#intro" class="nav-link"
+                        >About Us</a>
+                    </li>
+                    <li class="nav-item"><a href="#faq" class="nav-link"
+                        >Features</a>
+                    </li>
+                    <li class="nav-item"><a href="#youtube" class="nav-link"
+                        >Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+
+    <section id="hero" style="background-image: url('img/bg.png');" class="text-light text-center text-sm-start py-5">
+        <div class="container" >
+            <div class="d-sm-flex align-items-center justify-content-center">
+                <div class="py-3">
+                    <h1 class="display-5 ">Invest in the Future </h1>
+                    <p class="py-1 lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque distinctio quia adipisci. Quod quos illum iure exercitationem. Odio ipsa eveniet temporibus magni. Ad praesentium dolores dolore modi explicabo, consequatur nihil.</p>
+                </div>
+
+                <img class="img-fluid w-50 " src="img/first.png" alt="">
+            </div>
+        </div>
+    </section>
+    
+    <section id="About Us" class="  text-center p-3 ">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-center">
+                <div class="py-3">
+                    <h1 class="display-5 text-decoration-underline ">About Us</h1>
+                    <p class="py-1 text-center mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                      Atque distinctio quia adipisci. Quod quos illum iure exercitationem. 
+                      Odio ipsa eveniet temporibus magni. Ad praesentium dolores dolore modi explicabo, consequatur nihil.</p>
+                </div>
+
+                <!-- <img class="img-fluid w-50" src="img/hero-img.svg" alt=""> -->
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- Features -->
+    <section id="Features" class="  text-center p-3">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-center">
+                <div class="py-3">
+                    <h1 class="display-5 text-decoration-underline ">Features</h1>
+                    
+                </div>
+            </div>
+        </div>
+
+        <section class="py-5">
+            <div class="container">
+                <div class="row text-center ">
+
+                    <div class="col-sm">
+                        <div id="features_card" class="card  mb-3 border-0">
+                            <div class="h1 mt-3" >
+                                <i id="bi" class="bi bi-arrows-angle-contract  px-3 py-1 text-white rounded "></i>
+                            </div>
+                            <!--<img src="https://picsum.photos/300/200" alt="" class="card-img-top"> --> 
+                            <div class="card-body text-center">
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                    <div class="col-sm">
+                        <div id="features_card" class="card  mb-3 border-0">
+                            <div class="h1 mt-3" >
+                                <i id="bi" class="bi bi-arrows-angle-contract px-3 py-1 text-white rounded "></i>
+                            </div>
+                            <!--<img src="https://picsum.photos/300/200" alt="" class="card-img-top"> --> 
+                            <div class="card-body text-center">
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-sm">
+                        <div id="features_card" class="card  mb-3 border-0">
+                            <div class="h1 mt-3" >
+                                <i id="bi" class="bi bi-arrows-angle-contract px-3 py-1 text-white rounded "></i>
+                            </div>
+                            <!--<img src="https://picsum.photos/300/200" alt="" class="card-img-top"> --> 
+                            <div class="card-body text-center">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                     </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+    <!-- Carousel wrapper -->
+<div
+id="carouselMultiItemExample"
+class="carousel slide carousel-dark text-center"
+data-mdb-ride="carousel"
+>
+<div class="container px-4">
+    <div class="d-sm-flex align-items-center justify-content-center">
+        <div class="py-3">
+            <h1 class="display-5 text-decoration-underline ">Latest News</h1>
+        </div>
+    </div>
+</div>
+ <!-- Indicators -->
+ <div class="carousel-indicators ">
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+<!-- Inner -->
+<div class="carousel-inner py-5">
+  <!-- Single item -->
+  <div class="carousel-item active">
+    <div class="container ">
+      <div class="row  p-2 g-2 center">
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/new/standard/nature/180.webp"
+              class="card-img-top"
+              alt="Waterfall"
+            />
+            <div class="card-body">
+              <p class="card-text text-start p-2">
+                Some quick example text to build on the card title and make up the bulk
+                of the card's content Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere ratione ullam iure 
+                vero iste mollitia, aspernatur officia repudiandae, explicabo atque repellendus nam veniam.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/new/standard/nature/190.webp"
+              class="card-img-top"
+              alt="Sunset Over the Sea"
+            />
+            <div class="card-body">
+              <p class="card-text text-start p-2">
+                Some quick example text to build on the card title and make up the bulk
+                of the card's content Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere ratione ullam iure 
+                vero iste mollitia, aspernatur officia repudiandae, explicabo atque repellendus nam veniam.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/new/standard/nature/183.webp"
+              class="card-img-top"
+              alt="Sunset over the Sea"
+            />
+            <div class="card-body">
+              <p class="card-text text-start p-2">
+                Some quick example text to build on the card title and make up the bulk
+                of the card's content Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere ratione ullam iure 
+                vero iste mollitia, aspernatur officia repudiandae, explicabo atque repellendus nam veniam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Single item -->
+  <div class="carousel-item">
+    <div class="container">
+      <div class="row">
+        <div class="col ">
+          <div class="card">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp"
+              class="card-img-top"
+              alt="Fissure in Sandstone"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk
+                of the card's content.
+              </p>
+              <a href="#!" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/new/standard/nature/185.webp"
+              class="card-img-top"
+              alt="Storm Clouds"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk
+                of the card's content.
+              </p>
+              <a href="#!" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/new/standard/nature/186.webp"
+              class="card-img-top"
+              alt="Hot Air Balloons"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk
+                of the card's content.
+              </p>
+              <a href="#!" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Single item -->
+  <div class="carousel-item">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/new/standard/nature/187.webp"
+              class="card-img-top"
+              alt="Peaks Against the Starry Sky"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk
+                of the card's content.
+              </p>
+              <a href="#!" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col ">
+          <div class="card">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/new/standard/nature/188.webp"
+              class="card-img-top"
+              alt="Bridge Over Water"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk
+                of the card's content.
+              </p>
+              <a href="#!" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col ">
+          <div class="card">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/new/standard/nature/189.webp"
+              class="card-img-top"
+              alt="Purbeck Heritage Coast"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk
+                of the card's content.
+              </p>
+              <a href="#!" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Inner -->
+</div>
+<!-- Carousel wrapper -->
+
+
+<section id="Features" class="  text-center p-3">
+  <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-center">
+          <div class="py-3">
+              <h1 class="display-5 text-decoration-underline ">Tesominals</h1>
+              
+          </div>
+      </div>
+  </div>
+    <section class="v-100 gradient-custom">
+    <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col col-xl-10">
+        <div class="card">
+          <div class="card-body py-5">
+
+            <!-- Carousel wrapper -->
+            <div id="carouselDarkVariant" class="carousel slide carousel-dark" data-mdb-ride="carousel">
+              <!-- Indicators -->
+              <div class="carousel-indicators mb-0">
+                <button data-mdb-target="#carouselDarkVariant" data-mdb-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button data-mdb-target="#carouselDarkVariant" data-mdb-slide-to="1"
+                  aria-label="Slide 1"></button>
+                <button data-mdb-target="#carouselDarkVariant" data-mdb-slide-to="2"
+                  aria-label="Slide 1"></button>
+              </div>
+
+              <!-- Inner -->
+              <div class="carousel-inner pt-2 pb-5">
+                <!-- Single item -->
+                <div class="carousel-item active">
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-md-8 col-lg-9 col-xl-8">
+                      <div class="d-flex">
+                        <div class="flex-shrink-0">
+                          <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                            class="rounded-circle mb-4 mb-lg-0 shadow-2" alt="woman avatar" width="90"
+                            height="90">
+                        </div>
+                        <div class="flex-grow-1 ms-4 ps-3">
+                          <figure>
+                            <blockquote class="blockquote mb-4">
+                              <p>
+                                <i class="fas fa-quote-left fa-lg text-warning me-2"></i>
+                                <span class="font-italic">Lorem ipsum dolor sit amet consectetur adipisicing
+                                  elit. Pariatur sint nesciunt ad itaque aperiam expedita officiis incidunt
+                                  minus facere, molestias quisquam impedit inventore.</span>
+                              </p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                              Miranda Smith in <cite title="Source Title">The Guardian</cite>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Single item -->
+                <div class="carousel-item">
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-md-8 col-lg-9 col-xl-8">
+                      <div class="d-flex">
+                        <div class="flex-shrink-0">
+                          <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                            class="rounded-circle mb-4 mb-lg-0 shadow-2" alt="woman avatar" width="90"
+                            height="90">
+                        </div>
+                        <div class="flex-grow-1 ms-4 ps-3">
+                          <figure>
+                            <blockquote class="blockquote mb-4">
+                              <p>
+                                <i class="fas fa-quote-left fa-lg text-warning me-2"></i>
+                                <span class="font-italic">Sed ut perspiciatis unde omnis iste natus error sit
+                                  voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                                  quae ab illo inventore veritatis.</span>
+                              </p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                              Annie Hall <cite title="Source Title">New York Times</cite>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Single item -->
+                <div class="carousel-item">
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-md-8 col-lg-9 col-xl-8">
+                      <div class="d-flex">
+                        <div class="flex-shrink-0">
+                          <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                            class="rounded-circle mb-4 mb-lg-0 shadow-2" alt="woman avatar" width="90"
+                            height="90">
+                        </div>
+                        <div class="flex-grow-1 ms-4 ps-3">
+                          <figure>
+                            <blockquote class="blockquote mb-4">
+                              <p>
+                                <i class="fas fa-quote-left fa-lg text-warning me-2"></i>
+                                <span class="font-italic">At vero eos et accusamus et iusto odio dignissimos
+                                  qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
+                                  et quas molestias excepturi sint amet dolore.</span>
+                              </p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                              Jason More in <cite title="Source Title">Smash Magazine</cite>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Inner -->
+
+              <!-- Controls -->
+              <button class="carousel-control-prev" type="button" data-mdb-target="#carouselDarkVariant"
+                data-mdb-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-mdb-target="#carouselDarkVariant"
+                data-mdb-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!-- Carousel wrapper -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+</section>
+
+<section id="hero" class="text-light text-center text-sm-start py-5">
+    <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-center">
+            <div class="py-3">
+                <h1 class="display-5 ">Invest in the Future </h1>
+            </div>
+            <div class="form-outline m-5 text-center">
+                <input type="text" id="form12" class="form-control-lg" placeholder="email" style="border: none;"/>
+                <button type="button" class="btn btn-outline-light m-3 w-50" data-mdb-ripple-color="dark">Primary</button>
+              </div>
+        </div>
+        
+    </div>
+</section>
+
+<div class="container px-4">
+    <div class="d-flex align-items-center justify-content-center p-3">
+        <div class="py-3">
+            <h1 class="display-5 text-decoration-underline ">Contact Us</h1>
+        </div>
+    </div>
+    <form>
+        <div class="row">
+          <div class="form-group col-md-6 ">
+            <label for="name">First Name</label>
+            <input type="text" class="form-control " id="first_name" >
+          </div>
+          <div class="form-group col-md-6">
+            <label for="last name">Last Name</label>
+            <input type="text" class="form-control" id="inputLast">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputSubject">Subject</label>
+          <input type="text" class="form-control " id="subject" >
+        </div>
+        <div class="form-group">
+          <label for="inputMessage">Message</label>
+          <textarea class="form-control" rows="5" id="comment"></textarea>
+        </div>
+        
+        <div class="form-group mb-2 py-3 text-center ">
+        <label id="empty_files_label" for="empty files" class="px-4">Empty Files</label>  
+        <button type="submit" class="btn  col-sm">Send Message<i class="bi bi-send"></i></button>
+        </div>
+      </form>
+</div>
+
+<footer class="bg-primary text-center ">
+    <section id="hero" class="text-light  py-3 ">
+        <div class="container-fluid">
+            <div class="row text-sm-start text-start text-lg-start ">
+                <div class="col-6 d-flex justify-content-center   ">
+                    <h1 class="display-5 px-2 ">BlueTrading</h1>
+                    <label id="address" for="address">
+                        Keas 69 Str. 15234, East Nile<br>
+                        Athens, Greece<br>
+                        +249 9123 456 78<br>
+                        +249 9123 456 78
+                    </label>
+                </div>
+                <div class="col text-center p-1">
+                    <!-- Facebook -->
+                    <a style="background-color:blue ;" href="#!" class="btn btn-primary" role="button">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <!-- Twitter -->
+                    <a class="btn btn-primary" style="background-color: #55acee;" href="#!" role="button">
+                        <i class="bi bi-twitter text"></i>
+                    </a>
+                    <!-- Instagram -->
+                    <a class="btn btn-primary" style="background-color: #ac2bac;" href="#!" role="button">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <!-- Linkedin -->
+                    <a class="btn btn-primary" style="background-color: #0082ca;" href="#!" role="button">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <!-- Youtube -->
+                    <a class="btn btn-primary" style="background-color: #ed302f;" href="#!" role="button">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="container">
+            <div class="row">
+
+                <div class="col">
+                    <label id="footer_copy" for="footer">&copy; 2020 Reserved by Trading Company Limited.</label>
+                </div>
+
+                <div class="col-6 text-center">
+                    <label id="footer_copy" for="footer">Made with&#9825; by Ahmed Aljahlani</label>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" ></script>
+</body>
+</html>
